@@ -1,0 +1,45 @@
+/* General setup */
+@font-face {
+    font-family: 'aguafina_scriptregular';
+    src: url('fonts/aguafinascript-regular-webfont.woff2') format('woff2'),
+         url('fonts/aguafinascript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'amagrobold';
+    src: url('fonts/amagro-bold-webfont.woff2') format('woff2'),
+         url('fonts/amagro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Typography */
+  
+  h1 {
+      font-family: 'amagrobold', serif;
+    font-size: 3.2rem;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+    font-family: 'amagrobold', serif;
+  }
+  
+  p {
+      font-family: 'aguafina_scriptregular', serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+  }

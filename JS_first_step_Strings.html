@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Strings</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+   
+    </style>
+  </head>
+  <body> 
+    <button>Press me</button>
+<footer>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings"> MDN Documentation</a>
+</footer>
+<script>
+    let string = 'The revolution will not be televised.';
+  string;
+  let one = 'Hello, ';
+  let two = 'how are you?';
+  let joined = one + two;
+  joined;
+  let multiple = one + one + one + one + two;
+  multiple;
+  let response = one + 'I am fine — ' + two;
+  response;
+  const button = document.querySelector('button');
+  
+  button.onclick = function() {
+    let name = prompt('What is your name?');
+    alert('Hello ' + name + ', nice to see you!');
+  }
+  //Převod numern na string a string na number hodnotu
+  let myString = '123';
+let myNum = Number(myString);
+typeof myNum;
+let myNum2 = 123;
+let myString2 = myNum2.toString();
+typeof myString2;
+//template
+//backtick alt+96
+//dollar sign alt+36
+let examScore = 45;
+let examHighestScore = 70;
+examReport = `You scored ${ examScore }/${ examHighestScore } (${ Math.round((examScore/examHighestScore*100)) }%). ${ examScore >= 49 ? 'Well done, you passed!' : 'Bad luck, you didn\'t pass this time.' }`;
+//úprava na lowercase, uppercase
+let quote = 'I dO nOT lIke gREen eGgS anD HAM';
+let fixedQuote = quote.toLowerCase();
+  </script>
+</body>
+</html>

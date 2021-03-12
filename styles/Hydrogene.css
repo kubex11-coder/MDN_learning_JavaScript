@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Nerko+One&display=swap');
+
+html {
+    background-color: black;
+}
+header {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.logo {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    cursor: pointer;
+}
+.logo:hover {
+color:  rgba(137, 242, 243, 0.5);
+}
+
+header button {
+    font-family: "Merriweather", serif;
+    background-color:white;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15%;
+}
+header button:hover {
+    background-color:  rgba(137, 242, 243, 0.5);
+    cursor: pointer;
+}
+.navbar li {
+    
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+    color: rgba(137, 242, 243, 0.5);
+}
+.herobanner {
+   text-align: center; 
+}
+main {
+    color: white; 
+    font-size: 30px;
+    text-align: center;
+}
+footer {
+    color: white; 
+    font-size: 20px;
+    text-align: center; 
+    padding-top: 150px;
+}
+.box {
+   display: flex;
+}
+.vlevo, .vpravo {
+    flex: 1;
+    justify-content: space-around;
+}
